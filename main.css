@@ -241,3 +241,53 @@ body {
     font-weight: 600;
     letter-spacing: 0.2rem;
 }
+
+/* ----------------------------------------------------------------------------------------
+    SECOND SECTION
+---------------------------------------------------------------------------------------- */
+
+.second {
+    color: var(--theme-one);
+    margin: -14rem 0 0 0;
+    padding: 18rem 0 18rem 0;
+    background-color: var(--theme-five);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-card {
+    width: 70vw;
+    background-color: var(--theme-six);
+    display: flex;
+    filter: drop-shadow(-1px 6px 16px #000000);
+}
+
+.info-card-reversed {
+    flex-direction: row-reverse;
+}
+
+.second-header {
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+}
+
+.info-card-header {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+.info-card-img {
+    width: 400px;
+}
+
+.info-card-text {
+    padding: 1rem;;
+}
+
+.info-card-text-desc {
+    margin-top: 1rem;
+}
